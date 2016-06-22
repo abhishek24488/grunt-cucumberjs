@@ -8,7 +8,7 @@
 
 'use strict';
 var assertReport = require('./test/assert/assertReport');
-var report = require('./lib/report');
+var reporter = require('./lib/reporter');
 
 module.exports = function(grunt) {
     var options = {
@@ -92,5 +92,5 @@ module.exports = function(grunt) {
         grunt.registerTask('default', ['jshint', 'jsbeautifier', 'testSingleFormatter', 'testMultiFormatter', 'testParallelMode']);
     }
 
-    return report;
+    return reporter;
 };
