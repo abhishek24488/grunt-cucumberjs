@@ -7,7 +7,7 @@
  */
 
 'use strict';
-var assertReport = require('./test/assert/report');
+var assertReport = require('./test/assert/assertReport');
 var report = require('./lib/report');
 
 module.exports = function(grunt) {
