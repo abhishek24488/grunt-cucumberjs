@@ -33,7 +33,7 @@ grunt.loadNpmTasks('grunt-cucumberjs');
 
 ##### JSON -> HTML
 
-Reads the Cucumber JSON report file and generates the HTML report. Supports all three themes describe above.
+Reads the Cucumber JSON report file and generates the HTML report. Supports all three themes described above.
 
 #### How to generate HTML reports from JSON?
 
