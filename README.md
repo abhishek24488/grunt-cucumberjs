@@ -27,7 +27,7 @@ grunt.loadNpmTasks('grunt-cucumberjs');
 2. [Foundation Theme Reports][4]
 3. [Simple Theme Reports][5]
 
-## Generate HTML Reports from Cucumber JSON files - It's a seperate module which does not require you to use `grunt`
+## Generate HTML Reports from Cucumber JSON files - An independent utility which does not require you to use `grunt`
 
 Reads the Cucumber JSON report file and generates the HTML report. It supports all three themes describe above.
 
