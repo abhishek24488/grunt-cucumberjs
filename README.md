@@ -47,8 +47,8 @@ var htmlReporter = require('grunt-cucumberjs')().htmlReporter;
 ....
   var options = {
     theme: 'bootstrap',
-    output: 'tests/acceptance/report.html',
-    jsonFile: 'tests/acceptance/features_report.html.json'
+    output: 'tests/acceptance/cucumber_html_report.html',
+    jsonFile: 'tests/acceptance/cucumber_json_report.json'
   };
 
   htmlReporter.generate(options);
