@@ -21,11 +21,31 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-cucumberjs');
 ```
 
-## Sample HTML Reports 
+## Sample HTML Reports
 
 1. [Bootstrap Theme Reports with Pie Chart][3]
 2. [Foundation Theme Reports][4]
 3. [Simple Theme Reports][5]
+
+## Generate HTML Reports from Cucumber JSON files - It's a seperate module which does not require you to use `grunt`
+
+Reads the Cucumber JSON report file and generates the HTML report. It supports all three themes describe above.
+
+#### How to generate HTML reports from JSON
+
+```
+var htmlReporter = require('grunt-cucumberjs')().htmlReporter;
+....
+....
+  var options = {
+    theme: 'bootstrap',
+    output: 'tests/acceptance/report.html',
+    jsonFile: 'tests/acceptance/features_report.html.json'
+  };
+
+  htmlReporter.generate(options);
+  
+```
 
 ## The "cucumberjs" task
 
