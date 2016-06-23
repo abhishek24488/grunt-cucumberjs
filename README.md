@@ -5,6 +5,8 @@ grunt-cucumberjs
 
 > Runs cucumberjs features and/or scenarios in parallel.
 
+> Generate HTML reports from cucumber's JSON format file.
+
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`

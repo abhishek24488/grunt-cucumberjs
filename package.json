@@ -63,7 +63,9 @@
         "gruntplugin",
         "cucumber",
         "cucumberjs",
-        "htmlreport",
-        "parellel"
+        "html report",
+        "parellel",
+        "cucumber-html",
+        "html"
     ]
 }
