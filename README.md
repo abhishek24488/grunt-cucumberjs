@@ -1,9 +1,9 @@
 grunt-cucumberjs
 ================
 
-> Runs cucumberjs features and output results in various formats including html.
+> Runs cucumberjs features and output results in various HTML formats.
 
-> Runs cucumberjs features and/or scenarios in parallel.
+> Runs cucumberjs features and scenarios in parallel.
 
 > Generate HTML reports from cucumber's JSON format file.
 
