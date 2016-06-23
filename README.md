@@ -29,7 +29,7 @@ grunt.loadNpmTasks('grunt-cucumberjs');
 
 ## Generate HTML Reports from Cucumber JSON files - An independent utility which does not require you to use `grunt`
 
-Reads the Cucumber JSON report file and generates the HTML report. It supports all three themes describe above.
+Reads the Cucumber JSON report file and generates the HTML report. Supports all three themes describe above.
 
 #### How to generate HTML reports from JSON
 
