@@ -1,11 +1,17 @@
 {
-    "name": "grunt-cucumberjs",
-    "description": "Generates documentation from Cucumber features",
-    "version": "0.10.1",
-    "homepage": "https://github.com/mavdi/grunt-cucumberjs",
-    "author": {
-        "name": "Mehdi Avdi",
-        "email": "mehdi.avdi@gmail.com"
+  "name": "grunt-cucumberjs",
+  "description": "Generates documentation from Cucumber features",
+  "version": "0.10.2",
+  "homepage": "https://github.com/mavdi/grunt-cucumberjs",
+  "author": {
+    "name": "Mehdi Avdi",
+    "email": "mehdi.avdi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mavdi/grunt-cucumberjs.git"
+  },
+  "contributors": [
     },
     "repository": {
         "type": "git",
