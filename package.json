@@ -1,7 +1,7 @@
 {
   "name": "grunt-cucumberjs",
   "description": "Generates documentation from Cucumber features",
-  "version": "1.0.0",
+  "version": "0.10.2",
   "homepage": "https://github.com/mavdi/grunt-cucumberjs",
   "author": {
     "name": "Mehdi Avdi",
@@ -29,15 +29,15 @@
     }
   ],
   "dependencies": {
+    "chai": "1.10.0",
+    "chai-fs": "0.1.0",
     "commondir": "^1.0.1",
-    "cucumber-parallel": "^0.1.9",
+    "cucumber-parallel": "^0.1.10",
     "js-base64": "^2.1.9",
     "jsonfile": "^2.2.3",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "chai-fs": "^0.1.0",
     "cucumber": "^1.0.0",
     "grunt": "~0.4.5",
     "grunt-cli": "~0.1.13",
