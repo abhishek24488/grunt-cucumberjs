@@ -31,7 +31,7 @@
   "dependencies": {
     "chai": "^3.5.0",
     "cucumber-html-reporter": "^0.2.1",
-    "cucumber-parallel": "^0.1.10",
+    "cucumber-parallel": "git+ssh://git@github.com/gkushang/cucumber-parallel.git#develop",
     "node-fs": "^0.1.7"
   },
   "devDependencies": {
